@@ -32,4 +32,4 @@ jobs:
       with:
         azcliversion: latest
         inlineScript: |
-          az keyvault secret show --name "ExamplePassword" --vault-name "<your-unique-keyvault-name>" --query "value"
+          az keyvault secret show --name "ExamplePassword" --vault-name "kv1-dummy" --query "value"
